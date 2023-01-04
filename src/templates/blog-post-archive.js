@@ -51,7 +51,7 @@ const BlogIndex = ({
                   <small>{post.date}</small>
                 </header>
                 <section itemProp="description">{parse(post.excerpt)}</section>
-                  <p>{parse(extra_field_ql.extraField)}</p>
+                  <p>{ extra_field_ql.extra_field }</p>
               </article>
             </li>
           )
