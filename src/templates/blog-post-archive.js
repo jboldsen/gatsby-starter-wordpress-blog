@@ -45,7 +45,7 @@ const BlogIndex = ({
                 <header>
                   <h2>
                     <Link to={post.uri} itemProp="url">
-                      <span itemProp="headline">{parse(title)}</span>
+                      <span itemProp="headline">aa{parse(title)}</span>
                     </Link>
                   </h2>
                   <small>{post.date}</small>
